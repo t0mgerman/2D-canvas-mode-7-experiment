@@ -4,7 +4,7 @@ This is an experimental bit of code using `TypeScript` and `React` in an attempt
 
 It would be possible to create this effect more easily using the `web-gl` context of a Canvas element, or using something like CSS transforms - however, I wanted to try recreating the effect manually, pixel by pixel - and using a 2D Canvas context felt a bit more SNESy in terms of limitations.
 
-I have attempted to comment the code in case anyone wants to take a look, but this is just a bit of time-wasting fun really. 
+I have attempted to comment the code in case anyone wants to take a look, and fair warning - this doesn't really run properly in IE (it crashes it, in fact) - but this is just a bit of time-wasting fun really. 
 
 `React` is only used for synching the tweaked parameters back to app-state, it's not really necessary, the same could be acheived with normal event handlers, and I've only used `TypeScript` because I really like it 😊 it could have easily been plain JavaScript.
 
