@@ -20,6 +20,6 @@ https://www.youtube.com/watch?v=ybLZyY655iY
 
 ## Building / Running
 
-Clone the repo and run `npm run serve` to run the code hosted by `webpack-dev-server`
+Clone the repo, run `npm install` to get dependencies - then run `npm run serve` to host a dev build with `webpack-dev-server`
 
 Controls are `W`,`A`,`S`,`D` for movement and `Shift` to accelerate.
