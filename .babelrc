@@ -1,0 +1,17 @@
+{
+    "presets": [
+        ["@babel/preset-env",
+        {
+            "targets": ">0.25%, IE >= 9"
+        }],
+        "@babel/preset-typescript",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-syntax-dynamic-import",
+        "babel-plugin-replace-ts-export-assignment"
+    ]
+}
